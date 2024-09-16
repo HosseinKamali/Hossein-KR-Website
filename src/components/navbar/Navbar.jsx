@@ -30,7 +30,7 @@ const Navbar = () => {
                 </Link>
               ))}
             </ul>
-            <div className="flex items-center mr-10 ">
+            <div className="flex items-center mr-10 cursor-pointer ">
               <FaUserCircle size={29} />
               <p className="ml-3">login</p>
             </div>
