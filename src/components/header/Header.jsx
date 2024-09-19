@@ -8,7 +8,7 @@ const Header = () => {
     return ( 
         <Container>
    <div className="flex items-center flex-row-reverse max-sm:block">
-            <div className="w-[700px] h-[800px] max-sm:h-[600px] max-sm:w-full flex justify-center items-center">
+            <div className="w-[700px] h-[800px] max-sm:h-[500px] max-sm:w-full flex justify-center items-center">
             <img src={image} alt="" className="w-full h-full" />
             </div>
             
