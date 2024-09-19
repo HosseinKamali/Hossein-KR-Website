@@ -34,14 +34,14 @@ const Navbar = () => {
               <FaUserCircle size={29} />
               <p className="ml-3">login</p>
             </div>
-            <ButtonGetStarted />
+            <ButtonGetStarted bgColor="bg-amber-500 hover:text-amber-500 hover:bg-black"/>
           </div>
           <div className="sm:hidden cursor-pointer" onClick={() => setIsOpenMenu(true)}>
             <GiHamburgerMenu size={35} />
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <ButtonGetStarted responsive="w-[90%] sm:hidden" />
+          <ButtonGetStarted responsive="w-[90%] sm:hidden"bgColor=" bg-amber-500 hover:text-amber-500 hover:bg-black" />
         </div>
       </Container>
     </div>
