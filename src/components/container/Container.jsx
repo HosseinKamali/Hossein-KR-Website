@@ -3,7 +3,7 @@
 
 const Container = ({children}) => {
     return ( 
-        <div className="container mx-auto">
+        <div className=" mx-[105px]">
             {children}
         </div>
      );

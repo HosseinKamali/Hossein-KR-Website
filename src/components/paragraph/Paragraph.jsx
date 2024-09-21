@@ -7,13 +7,14 @@ const backgroundSection = {
 
 const Paragraph = () => {
   return (
-    <div style={backgroundSection} className="w-full h-[600px] flex items-center">
+    
+    <div style={backgroundSection} className="py-72">
  <Container>
-      <div className="flex justify-center items-center mb-10">
-        <h2 className="text-5xl mr-10">
+      <div className="flex justify-around items-center mb-10 max-sm:block max-sm:mt-24 max-sm:mx-10 ">
+        <h2 className="text-4xl max-sm:mb-6 ">
           With the Right <br /> Software, Great <br /> Things Can Happen
         </h2>
-        <p className="text-lg ml-10">
+        <p className="text-base  ">
           I'm a paragraph. Click here to add your own text and edit me.
           <br /> It’s easy. Just click “Edit Text” or double click me to add
           your
@@ -24,8 +25,9 @@ const Paragraph = () => {
           about you.
         </p>
       </div>
-    </Container>
+      </Container>
     </div>
+    
    
   );
 };
