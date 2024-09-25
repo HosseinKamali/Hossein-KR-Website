@@ -36,7 +36,7 @@ const Header = () => {
                   className="bg-black text-slate-50 p-1 rounded-md "
                 />
                 <p className="ml-3">
-                  Speed & <br /> Security
+                  Speed &  Security
                 </p>
               </div>
 
@@ -46,7 +46,7 @@ const Header = () => {
                   className="bg-black text-slate-50 p-1 rounded-md "
                 />
                 <p className="ml-3">
-                  Flexibility & <br /> Scalability
+                  Flexibility &  Scalability
                 </p>
               </div>
               <div className="flex items-center sm:ml-12 max-sm:mt-4">
@@ -55,7 +55,7 @@ const Header = () => {
                   className="bg-black text-slate-50 p-1 rounded-md "
                 />
                 <p className="ml-3">
-                  Better <br />
+                  Better 
                   Collaboration
                 </p>
               </div>

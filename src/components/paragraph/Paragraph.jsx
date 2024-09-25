@@ -2,7 +2,7 @@ import Container from "../container/Container";
 
 const backgroundSection = {
   backgroundColor: "#ffc11a",
-  clipPath: "polygon(0 0, 100% 15%, 100% 100%, 0 100%)",
+  clipPath: "polygon(0 0, 100% 18%, 100% 100%, 0 100%)",
 };
 
 const Paragraph = () => {
@@ -10,7 +10,7 @@ const Paragraph = () => {
     
     <div style={backgroundSection} className="py-72">
  <Container>
-      <div className="flex justify-around items-center mb-10 max-sm:block max-sm:mt-24 max-sm:mx-10 ">
+      <div className="flex justify-between items-center mb-10 max-sm:block max-sm:mt-24 max-sm:mx-10 ">
         <h2 className="text-4xl max-sm:mb-6 ">
           With the Right <br /> Software, Great <br /> Things Can Happen
         </h2>
