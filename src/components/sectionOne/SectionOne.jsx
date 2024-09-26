@@ -26,9 +26,9 @@ const SectionOne = () => {
 
   return (
     <Container>
-      <div className="mt-12 mb-14 ">
-        <h2 className="text-4xl mb-8">What We Offer</h2>
-        <p className="text-lg">
+      <div className="mt-16 mx-14 ">
+        <h2 className="text-3xl mb-7">What We Offer</h2>
+        <p className="text-xs leading-6">
           I'm a paragraph. Click here to add your own text and edit me. It’s
           easy.
           <br /> Just click “Edit Text” or double click me to add your own
@@ -44,18 +44,18 @@ const SectionOne = () => {
         transition={{ duration: 1 }}
        
         
-      className="flex mb-10 max-sm:block flex-wrap justify-between ">
+      className="flex mb-10 max-sm:block flex-wrap justify-between mx-14 mt-14 ">
         {cards.map((card) => (
-          <div key={card.id} className="w-[23.5%] max-sm:w-[65%] max-sm:mb-20 ">
+          <div key={card.id} className="w-[24%] max-sm:w-[65%] max-sm:mb-20 ">
             <img
               src={card.image}
               alt=""
               className="w-full border-2 border-black rounded-xl"
             />
-            <h3 className="text-2xl font-semibold mt-6 mb-6 break-words w-[80%]">
+            <h3 className="text-[17px] font-semibold mt-6 mb-3 break-words w-[80%]">
               {card.title}
             </h3>
-            <p>{card.description}</p>
+            <p className="text-xs leading-5">{card.description}</p>
           </div>
         ))}
       </motion.div>

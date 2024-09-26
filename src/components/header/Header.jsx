@@ -7,7 +7,7 @@ import { IoIosContract } from "react-icons/io";
 const Header = () => {
   return (
     <Container>
-      <div className="flex flex-row-reverse items-center max-sm:block justify-around mx-14 mt-10 ">
+      <div className="flex flex-row-reverse items-center max-sm:block justify-around mx-14 mt-16 ">
         <div className=" max-sm:w-full ">
           <img src={image} alt="" className="w-full h-full" />
         </div>
