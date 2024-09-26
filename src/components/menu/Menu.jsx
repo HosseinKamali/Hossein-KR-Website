@@ -19,7 +19,7 @@ const Menu = () => {
               </div>
              {
              title.map(item => 
-             <Link key={item.id} to={item?.path}> <li  className="ml-6 text-lg font-semibold cursor-pointer py-1 px-3 hover:text-slate-500">
+             <Link key={item.id} to={item?.path}> <li  className="text-sm font-semibold cursor-pointer py-1 px-3 hover:text-slate-500">
               {item.title}</li></Link>
              )
              }

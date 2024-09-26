@@ -34,7 +34,7 @@ const Navbar = () => {
               <FaUserCircle size={29} />
               <p className="ml-3">login</p>
             </div>
-            <ButtonGetStarted bgColor="bg-amber-500 hover:text-amber-500 hover:bg-black"/>
+            <ButtonGetStarted bgColor="bg-amber-500 hover:text-amber-500 hover:bg-black text-sm py-[6px] px-3"/>
           </div>
           <div className="sm:hidden cursor-pointer" onClick={() => setIsOpenMenu(true)}>
             <GiHamburgerMenu size={35} />
