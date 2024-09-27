@@ -85,7 +85,7 @@ const Footer = () => {
 
 
           </div>
-          <ButtonGetStarted bgColor="bg-black text-slate-50 text-sm w-full py-1 " />
+          <ButtonGetStarted bgColor="bg-black text-slate-50 text-sm w-full py-2 " />
         </div>
 
         {/* Social Media Links */}

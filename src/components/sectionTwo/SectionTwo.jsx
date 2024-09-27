@@ -9,7 +9,7 @@ const SectionTwo = () => {
   return (
     <Container>
       <div className="flex items-center justify-between max-sm:block mt-32 mb-16  ">
-        <div className=" max-sm:w-full flex justify-center items-center w-[50%]  ">
+        <div className=" max-sm:w-full flex justify-center items-center w-[460px]  ">
           <img src={image} alt="" className="w-full h-full" />
         </div>
 
