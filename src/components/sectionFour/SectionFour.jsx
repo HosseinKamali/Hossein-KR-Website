@@ -9,12 +9,12 @@ const SectionFour = () => {
   return (
     <Container>
  <div>
-      <div className="flex justify-between items-center mb-20">
-        <div className="w-[28%] h-[400px] border-2 border-black relative  rounded-xl ">
+      <div className="flex justify-between items-center mb-20 mx-14">
+        <div className="w-[32%] h-[370px] border-2 border-black relative  rounded-xl ">
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
-          <div className="py-9 px-10">
-          <p className="mb-16">
+          <div className="py-8 px-5">
+          <p className="mb-16 text-xs leading-5">
             “I'm a testimonial. Click to edit me and add text that says
             something nice about you and your services. Let your customers
             review you and tell their friends how great you are.”
@@ -27,11 +27,11 @@ const SectionFour = () => {
         
           
         </div>
-        <div className="w-[28%] h-[400px] border-2 border-black relative  rounded-xl ">
+        <div className="w-[32%] h-[370px] border-2 border-black relative  rounded-xl ">
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
-          <div className="py-9 px-10">
-          <p className="mb-16">
+          <div className="py-8 px-5">
+          <p className="mb-16 text-xs leading-5">
             “I'm a testimonial. Click to edit me and add text that says
             something nice about you and your services. Let your customers
             review you and tell their friends how great you are.”
@@ -44,11 +44,11 @@ const SectionFour = () => {
         
           
         </div>
-        <div className="w-[28%] h-[400px] border-2 border-black relative  rounded-xl ">
+        <div className="w-[32%] h-[370px] border-2 border-black relative  rounded-xl ">
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
-          <div className="py-9 px-10">
-          <p className="mb-16">
+          <div className="py-8 px-5">
+          <p className="mb-16 text-xs leading-5 ">
             “I'm a testimonial. Click to edit me and add text that says
             something nice about you and your services. Let your customers
             review you and tell their friends how great you are.”

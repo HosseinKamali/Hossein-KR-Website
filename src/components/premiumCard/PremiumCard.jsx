@@ -12,24 +12,24 @@ const PremiumCard = () => {
 
     return ( 
         <div>
-            <div className="bg-black text-slate-50 py-5 px-5 w-[450px] h-[350px] rounded-t-lg">
+            <div className="bg-black text-slate-50 py-5 px-5 w-[360px] h-[280px] rounded-t-lg">
                 <h2 className="text-4xl">Premium</h2>
                 <div>
                     <p >US$</p>
                 <h3 className="text-5xl font-bold ">50</h3>
                 </div>
                 
-                <p className="text-sm mt-2">Every month</p>
-                <p className="text-sm ">Use this area to describe one of your memberships.</p>
-                <p className="text-sm mt-9">Valid for 12 months</p>
-                <ButtonGetStarted bgColor="bg-slate-50 text-black hover:opacity-15 py-2 " responsive="w-full mt-10"/>
+                <p className="text-[10px] mt-2">Every month</p>
+                <p className="text-[10px] ">Use this area to describe one of your memberships.</p>
+                <p className="text-[10px] mt-3 ">Valid for 12 months</p>
+                <ButtonGetStarted bgColor="bg-slate-50 text-black hover:opacity-15 py-[8px] text-sm " responsive="w-[85%] mx-auto  mt-5"/>
 
              </div>
 
-            <ul className="bg-pink-200 py-5 px-5 rounded-b-lg border-2 border-black">
+            <ul className="bg-pink-200  px-6 py-6 rounded-b-lg border-2 border-black">
                 {
                   benefits.map((benefit,index)=>
-                    <li key={index} className="flex items-center mb-3">
+                    <li key={index} className="flex items-center mb-4 text-xs">
                         <GoCheckCircleFill className="mr-2"/>
                   <p>{benefit}</p>
                  

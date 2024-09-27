@@ -9,14 +9,14 @@ import { BiLogoDiscordAlt } from "react-icons/bi";
 
 const IconsCard = () => {
   const icons = [
-    { icon: <BiServer size={90} />, label: "META DEFINER" },
-    { icon: <BiSelection size={90} />, label: "TELTA TEACH" },
-    { icon: <BiSolidAnalyse size={90} />, label: "TECHMED" },
-    { icon: <BiSolidMicrochip size={90} />, label: "Power Core" },
-    { icon: <BiSolidServer size={90} />, label: "Strongest Link" },
-    { icon: <BiSolidShip size={90} />, label: "COG Industry" },
-    { icon: <BiSolidPackage size={90} />, label: "A.T.Motion" },
-    { icon: <BiLogoDiscordAlt size={90} />, label: "Bond" },
+    { icon: <BiServer size={50} />, label: "META DEFINER" },
+    { icon: <BiSelection size={50} />, label: "TELTA TEACH" },
+    { icon: <BiSolidAnalyse size={50} />, label: "TECHMED" },
+    { icon: <BiSolidMicrochip size={50} />, label: "Power Core" },
+    { icon: <BiSolidServer size={50} />, label: "Strongest Link" },
+    { icon: <BiSolidShip size={50} />, label: "COG Industry" },
+    { icon: <BiSolidPackage size={50} />, label: "A.T.Motion" },
+    { icon: <BiLogoDiscordAlt size={50} />, label: "Bond" },
   ];
 
   return (

@@ -8,61 +8,59 @@ import { IoIosContract } from "react-icons/io";
 const SectionTwo = () => {
   return (
     <Container>
-      <div className="flex items-center max-sm:block justify-between mt-32 mb-16  ">
-        <div className=" w-[55%] max-sm:h-[500px] max-sm:w-full flex justify-center items-center ">
+      <div className="flex items-center justify-between max-sm:block mt-32 mb-16 mx-14 ">
+        <div className=" max-sm:w-full flex justify-center items-center  ">
           <img src={image} alt="" className="w-full h-full" />
         </div>
 
-        <div className="max-sm:mx-7 w-[40%] ">
-          <div>
-            <h2 className="font-semibold text-4xl mb-12">
+        <div className="max-sm:mx-7 flex flex-col items-center justify-between ">
+        
+            <h2 className="font-semibold text-3xl mb-10">
               Communicate.
               <br />
               Collaborate. Create.
             </h2>
-            <h3 className="text-base sm:mb-12 ">
+            <h3 className="text-xs sm:mb-12 leading-6">
             I'm a paragraph. Click here to add your own  text and edit me. 
             It’s easy. Just click “Edit Text” or double click me to add your
              own content and make changes to the font. I’m a great place
               for you to tell a story and let your users know a little more about you.
             </h3>
 
-            <div className="flex justify-between  sm:mt-24 max-sm:block max-sm:mt-10">
+            <div className="flex justify-between items-center  max-sm:block max-sm:mt-10">
               <div className="flex items-center ">
                 <SlLock
                   size={50}
-                  className="bg-black text-slate-50 rounded-md w-12 h-9 p-1 "/>
-                <p className="ml-2 text-sm">
+                  className="bg-black text-slate-50 rounded-md w-10 h-8 py-[1px] px-[4px]  "/>
+                <p className="ml-2 text-[10px]">
                   Speed & Security
                 </p>
               </div>
 
-              <div className="flex items-center sm:ml-10 max-sm:mt-4">
+              <div className="flex items-center max-sm:mt-4 ml-3">
                 <FaVectorSquare
                   size={50}
-                  className="bg-black text-slate-50 rounded-md w-14 h-10 p-1"/>
-                <p className="ml-2 text-xs">
+                  className="bg-black text-slate-50 rounded-md w-10 h-8 py-[1px] px-[4px] "/>
+                <p className="ml-2 text-[10px]">
                 AllIn-One
                 Toolkit
                 </p>
               </div>
-              <div className="flex items-center sm:ml-10 max-sm:mt-4">
+              <div className="flex items-center ml-4 max-sm:mt-5">
                 <IoIosContract
                   size={50}
-                  className="bg-black text-slate-50 rounded-md w-12 h-9 "
+                  className="bg-black text-slate-50 rounded-md w-8 h-7 "
                 />
-                <p className="m-2 text-sm ">
+                <p className="m-2 text-[10px] ">
                   Better 
                   Collaboration
                 </p>
               </div>
             </div>
           </div>
-          <div className="sm:hidden flex justify-center items-center mt-10">
-           
-          </div>
+          
         </div>
-      </div>
+      
     </Container>
   );
 };
