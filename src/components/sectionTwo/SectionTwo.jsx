@@ -9,7 +9,7 @@ const SectionTwo = () => {
   return (
     <Container>
       <div className="flex items-center justify-between max-sm:block mt-32 mb-16  ">
-        <div className=" max-sm:w-full flex justify-center items-center w-[460px]  ">
+        <div className=" max-sm:w-full flex justify-center items-center w-[600px]  ">
           <img src={image} alt="" className="w-full h-full" />
         </div>
 
@@ -31,7 +31,7 @@ const SectionTwo = () => {
               <div className="flex items-center ">
                 <SlLock
                   size={50}
-                  className="bg-black text-slate-50 rounded-md w-10 h-8 py-[1px] px-[4px]  "/>
+                  className="bg-black text-slate-50 rounded-md w-9 h-9 py-[1px] px-[4px]  "/>
                 <p className="ml-2 text-[10px]">
                   Speed & Security
                 </p>
@@ -40,7 +40,7 @@ const SectionTwo = () => {
               <div className="flex items-center max-sm:mt-4 ml-3">
                 <FaVectorSquare
                   size={50}
-                  className="bg-black text-slate-50 rounded-md w-10 h-8 py-[1px] px-[4px] "/>
+                  className="bg-black text-slate-50 rounded-md w-9 h-9 py-[1px] px-[4px] "/>
                 <p className="ml-2 text-[10px]">
                 AllIn-One
                 Toolkit
@@ -49,7 +49,7 @@ const SectionTwo = () => {
               <div className="flex items-center ml-4 max-sm:mt-5">
                 <IoIosContract
                   size={50}
-                  className="bg-black text-slate-50 rounded-md w-8 h-7 "
+                  className="bg-black text-slate-50 rounded-md w-9 h-9 py-[1px] px-[4px] "
                 />
                 <p className="m-2 text-[10px] ">
                   Better 
