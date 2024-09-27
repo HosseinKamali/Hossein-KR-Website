@@ -19,9 +19,9 @@ const PremiumCard = () => {
                 <h3 className="text-5xl font-bold ">50</h3>
                 </div>
                 
-                <p className="text-[10px] mt-2">Every month</p>
-                <p className="text-[10px] ">Use this area to describe one of your memberships.</p>
-                <p className="text-[10px] mt-3 ">Valid for 12 months</p>
+                <p className="text-xs mt-2">Every month</p>
+                <p className="text-xs ">Use this area to describe one of your memberships.</p>
+                <p className="text-xs mt-3 ">Valid for 12 months</p>
                 <ButtonGetStarted bgColor="bg-slate-50 text-black hover:opacity-15 py-[8px] text-sm " responsive="w-[85%] mx-auto  mt-5"/>
 
              </div>

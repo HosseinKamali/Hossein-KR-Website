@@ -8,19 +8,19 @@ import { IoIosContract } from "react-icons/io";
 const SectionTwo = () => {
   return (
     <Container>
-      <div className="flex items-center justify-between max-sm:block mt-32 mb-16 mx-14 ">
-        <div className=" max-sm:w-full flex justify-center items-center  ">
+      <div className="flex items-center justify-between max-sm:block mt-32 mb-16  ">
+        <div className=" max-sm:w-full flex justify-center items-center w-[50%]  ">
           <img src={image} alt="" className="w-full h-full" />
         </div>
 
-        <div className="max-sm:mx-7 flex flex-col items-center justify-between ">
+        <div className="max-sm:mx-7 flex flex-col justify-between w-[40%] ">
         
-            <h2 className="font-semibold text-3xl mb-10">
+            <h2 className="font-semibold text-3xl mb-7">
               Communicate.
               <br />
               Collaborate. Create.
             </h2>
-            <h3 className="text-xs sm:mb-12 leading-6">
+            <h3 className="text-sm sm:mb-12 leading-6">
             I'm a paragraph. Click here to add your own  text and edit me. 
             It’s easy. Just click “Edit Text” or double click me to add your
              own content and make changes to the font. I’m a great place

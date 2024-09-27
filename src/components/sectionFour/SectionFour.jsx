@@ -14,7 +14,7 @@ const SectionFour = () => {
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
           <div className="py-8 px-5">
-          <p className="mb-16 text-xs leading-5">
+          <p className="mb-16 text-sm leading-5">
             “I'm a testimonial. Click to edit me and add text that says
             something nice about you and your services. Let your customers
             review you and tell their friends how great you are.”
@@ -31,7 +31,7 @@ const SectionFour = () => {
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
           <div className="py-8 px-5">
-          <p className="mb-16 text-xs leading-5">
+          <p className="mb-16 text-sm leading-5">
             “I'm a testimonial. Click to edit me and add text that says
             something nice about you and your services. Let your customers
             review you and tell their friends how great you are.”
@@ -48,7 +48,7 @@ const SectionFour = () => {
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
           <div className="py-8 px-5">
-          <p className="mb-16 text-xs leading-5 ">
+          <p className="mb-16 text-sm leading-5 ">
             “I'm a testimonial. Click to edit me and add text that says
             something nice about you and your services. Let your customers
             review you and tell their friends how great you are.”

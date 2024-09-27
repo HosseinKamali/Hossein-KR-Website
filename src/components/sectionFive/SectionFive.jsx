@@ -8,7 +8,7 @@ const SectionFive = () => {
         <div className="flex justify-between items-center mx-14">
         <div className="w-[40%]">
           <h2 className="text-3xl mb-10">Explore Our<br/> Pricing Options</h2>
-          <p className="text-xs leading-5">
+          <p className="text-sm leading-5">
             I'm a paragraph. Click here to add your own text and edit me.
             
             It’s easy. Just click “Edit Text” or double click me to add your

@@ -15,8 +15,8 @@ const Footer = () => {
       <div className="grid grid-cols-6 gap-8 ">
         {/* Contact Section */}
         <div className="grid col-span-2">
-          <h3 className="font-semibold mb-9 text-[16px]">Contact</h3>
-          <div className="flex mb-8 text-xs">
+          <h3 className="font-semibold mb-9 text-base">Contact</h3>
+          <div className="flex mb-8 text-sm">
             <p className="mr-8">
               500 Terry Francine Street
               <br /> San Francisco, CA 94158
@@ -27,7 +27,7 @@ const Footer = () => {
               info@mysite.com
             </p>
           </div>
-          <div className="flex text-xs">
+          <div className="flex text-sm">
             <p className="mr-20">
               General Inquiries:
               <br />
@@ -44,7 +44,7 @@ const Footer = () => {
         {/* Quick Links Section */}
         <div className="grid col-span-1">
           <h3 className="font-semibold text-[16px] mb-9">Quick Links</h3>
-          <div className="flex flex-col">
+          <div className="flex flex-col text-sm">
             <a>Terms & Conditions</a>
             <a>Privacy Policy</a>
           </div>

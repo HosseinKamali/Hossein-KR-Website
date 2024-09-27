@@ -14,7 +14,7 @@ const SectionThree = () => {
           <h2 className="text-3xl max-sm:mb-6 mt-28 ">
             Trusted Among Industry Leaders
           </h2>
-          <p className="text-xs mt-9 ">
+          <p className="text-sm mt-9 ">
           I'm a paragraph. Click here to add your own text and edit me.
           <br/> It’s easy. Just click “Edit Text” or double click me to add your
           <br/> own content and make changes to the font.

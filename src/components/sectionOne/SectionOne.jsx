@@ -28,7 +28,7 @@ const SectionOne = () => {
     <Container>
       <div className="mt-16 mx-14 ">
         <h2 className="text-3xl mb-7">What We Offer</h2>
-        <p className="text-xs leading-6">
+        <p className="text-sm leading-6">
           I'm a paragraph. Click here to add your own text and edit me. It’s
           easy.
           <br /> Just click “Edit Text” or double click me to add your own

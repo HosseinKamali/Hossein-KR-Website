@@ -10,11 +10,11 @@ const Paragraph = () => {
     
     <div style={backgroundSection} className="py-52 mt-12">
  <Container>
-      <div className="flex justify-between items-center mb-10 max-sm:block max-sm:mt-24 max-sm:mx-10 mx-14 ">
-        <h2 className="text-3xl max-sm:mb-6 ">
+      <div className="flex justify-around items-center mb-10 max-sm:block max-sm:mt-24 max-sm:mx-10 mx-14 ">
+        <h2 className="text-4xl max-sm:mb-6 ">
           With the Right <br /> Software, Great <br /> Things Can Happen
         </h2>
-        <p className="text-sm  ">
+        <p className="text-base  ">
           I'm a paragraph. Click here to add your own text and edit me.
           <br /> It’s easy. Just click “Edit Text” or double click me to add
           your
