@@ -60,8 +60,8 @@ const Header = () => {
           </div>
           <div className="sm:hidden flex justify-center items-center mt-10">
             <ButtonGetStarted
-              bgColor="bg-black text-white hover:text-black hover:bg-amber-500 "
-              responsive="w-[90%]"
+              bgColor="bg-black text-white hover:text-black hover:bg-amber-500 py-2 "
+              responsive="w-full"
             />
           </div>
         </div>

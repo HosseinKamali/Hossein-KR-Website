@@ -9,8 +9,9 @@ const SectionFour = () => {
   return (
     <Container>
  <div>
-      <div className="flex justify-around items-center mb-20 mx-14">
-        <div className="w-[27%] h-[400px] border-2 border-black relative  rounded-xl ">
+      <div className="sm:flex sm:justify-around items-center mb-20 mx-14">
+
+        <div className="sm:w-[27%] max-sm:mb-10  h-[400px] border-2 border-black relative  rounded-xl ">
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
           <div className="py-8 px-5">
@@ -27,7 +28,7 @@ const SectionFour = () => {
         
           
         </div>
-        <div className="w-[27%] h-[400px] border-2 border-black relative  rounded-xl ">
+        <div className="sm:w-[27%] h-[400px] max-sm:mb-10 border-2 border-black relative  rounded-xl ">
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
           <div className="py-8 px-5">
@@ -44,7 +45,7 @@ const SectionFour = () => {
         
           
         </div>
-        <div className="w-[27%] h-[400px] border-2 border-black relative  rounded-xl ">
+        <div className="sm:w-[27%] h-[400px] max-sm:mb-10 border-2 border-black relative  rounded-xl ">
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>
           <div className="w-full h-[2px] bg-black"></div>
           <div className="py-8 px-5">

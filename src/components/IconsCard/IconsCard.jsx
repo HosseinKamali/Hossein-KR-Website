@@ -22,7 +22,7 @@ const IconsCard = () => {
   return (
     <div className="flex justify-between flex-wrap mx-6">
       {icons.map((iconObj, index) => (
-        <div key={index} className="flex flex-col items-center w-[25%] mb-20">
+        <div key={index} className="flex flex-col items-center sm:w-[25%] max-sm:w-[50%] mb-20">
           {iconObj.icon}
           <p>{iconObj.label}</p>
         </div>

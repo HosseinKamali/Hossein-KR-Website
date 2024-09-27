@@ -41,7 +41,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <ButtonGetStarted responsive="w-[90%] sm:hidden"bgColor=" bg-amber-500 hover:text-amber-500 hover:bg-black" />
+          <ButtonGetStarted responsive="w-[90%] sm:hidden"bgColor=" bg-amber-500 hover:text-amber-500 hover:bg-black py-3 text-lg" />
         </div>
       </Container>
     </div>

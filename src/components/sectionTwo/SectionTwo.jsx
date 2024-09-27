@@ -8,12 +8,12 @@ import { IoIosContract } from "react-icons/io";
 const SectionTwo = () => {
   return (
     <Container>
-      <div className="flex items-center justify-between max-sm:block mt-32 mb-16  ">
-        <div className=" max-sm:w-full flex justify-center items-center w-[600px]  ">
+      <div className="sm:flex sm:items-center sm:justify-between max-sm:block mt-32 mb-16 max-sm:mx-7 ">
+        <div className=" max-sm:w-full flex justify-center items-center w-[600px] max-sm:mb-10 ">
           <img src={image} alt="" className="w-full h-full" />
         </div>
 
-        <div className="max-sm:mx-7 flex flex-col justify-between w-[40%] ">
+        <div className="max-sm:mx-7 sm:flex sm:flex-col sm:justify-between sm:w-[40%] max-sm:w-[90%] max-sm:text-center ">
         
             <h2 className="font-semibold text-3xl mb-7">
               Communicate.
@@ -27,7 +27,7 @@ const SectionTwo = () => {
               for you to tell a story and let your users know a little more about you.
             </h3>
 
-            <div className="flex justify-between items-center  max-sm:block max-sm:mt-10">
+            <div className="sm:flex sm:justify-between  max-sm:block max-sm:mt-10">
               <div className="flex items-center ">
                 <SlLock
                   size={50}
@@ -37,7 +37,7 @@ const SectionTwo = () => {
                 </p>
               </div>
 
-              <div className="flex items-center max-sm:mt-4 ml-3">
+              <div className="flex items-center max-sm:mt-4">
                 <FaVectorSquare
                   size={50}
                   className="bg-black text-slate-50 rounded-md w-9 h-9 py-[1px] px-[4px] "/>
@@ -46,7 +46,7 @@ const SectionTwo = () => {
                 Toolkit
                 </p>
               </div>
-              <div className="flex items-center ml-4 max-sm:mt-5">
+              <div className="flex items-center max-sm:mt-5">
                 <IoIosContract
                   size={50}
                   className="bg-black text-slate-50 rounded-md w-9 h-9 py-[1px] px-[4px] "
