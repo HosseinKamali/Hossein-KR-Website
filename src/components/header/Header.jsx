@@ -7,8 +7,8 @@ import { IoIosContract } from "react-icons/io";
 const Header = () => {
   return (
     <Container>
-      <div className="flex flex-row-reverse items-center max-sm:block justify-around mx-14 mt-16 ">
-        <div className=" max-sm:w-full ">
+      <div className="flex flex-row-reverse items-center max-sm:block justify-around mt-16 ">
+        <div className=" max-sm:w-full w-[70%] ">
           <img src={image} alt="" className="w-full h-full" />
         </div>
 
@@ -20,7 +20,7 @@ const Header = () => {
               Collaborate. Create.
             </h1>
             <h2 className="text-lg sm:mb-10 ">
-              WeDu provides an effective and powerful way<br/> to manage your
+              WeDu provides an effective and powerful way to manage your
               projects
             </h2>
 
@@ -29,7 +29,7 @@ const Header = () => {
               responsive="max-sm:hidden"
             />
 
-            <div className=" flex sm:mt-20 max-sm:block max-sm:mt-10">
+            <div className=" flex justify-between sm:mt-20 max-sm:block max-sm:mt-10">
               <div className="flex items-center ">
                 <SlLock
                   size={37}
@@ -39,20 +39,18 @@ const Header = () => {
                 </p>
               </div>
 
-              <div className="flex items-center  max-sm:mt-4">
+              <div className="flex items-center justify-between  max-sm:mt-4">
                 <FaVectorSquare
                   size={37}
-                  className="bg-black text-slate-50 p-1 rounded-md "
-                />
+                  className="bg-black text-slate-50 p-1 rounded-md "/>
                 <p className="ml-2 text-xs">
                   Flexibility &<br/>  Scalability
                 </p>
               </div>
-              <div className="flex items-center  max-sm:mt-4">
+              <div className="flex items-center justify-between  max-sm:mt-4">
                 <IoIosContract
                   size={37}
-                  className="bg-black text-slate-50 p-1 rounded-md "
-                />
+                  className="bg-black text-slate-50 p-1 rounded-md "/>
                 <p className="ml-2 text-xs">
                   Better <br/>
                   Collaboration
