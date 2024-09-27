@@ -55,7 +55,7 @@ const SectionOne = () => {
             <h3 className="text-[17px] font-semibold mt-6 mb-3 break-words w-[80%]">
               {card.title}
             </h3>
-            <p className="text-xs leading-5">{card.description}</p>
+            <p className="text-sm leading-5">{card.description}</p>
           </div>
         ))}
       </motion.div>

@@ -85,11 +85,11 @@ const Footer = () => {
 
 
           </div>
-          <ButtonGetStarted bgColor="bg-black text-slate-50 text-sm w-full py-2 " />
+          <ButtonGetStarted bgColor="bg-black text-slate-50 text-sm w-full py-2 hover:bg-amber-400 hover:text-black " />
         </div>
 
         {/* Social Media Links */}
-        <div className="font-semibold flex flex-col items-center mt-20 justify-around">
+        <div className="font-semibold flex flex-col items-center mt-20 justify-around hover:bg-amber-400">
           <a>LinkedIn</a>
           <a>YouTube</a>
           <a>Facebook</a>

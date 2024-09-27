@@ -25,11 +25,11 @@ const Header = () => {
             </h2>
 
             <ButtonGetStarted
-              bgColor="bg-black text-white hover:text-black hover:bg-amber-500 text-sm py-1 px-2  "
+              bgColor="bg-black text-white hover:text-black hover:bg-amber-500 text-sm py-[6px] px-2  "
               responsive="max-sm:hidden"
             />
 
-            <div className=" flex justify-between sm:mt-20 max-sm:block max-sm:mt-10">
+            <div className=" flex justify-between sm:mt-20 max-sm:block max-sm:mt-10 ">
               <div className="flex items-center ">
                 <SlLock
                   size={37}
