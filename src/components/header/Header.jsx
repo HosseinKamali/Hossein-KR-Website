@@ -1,5 +1,5 @@
 import ButtonGetStarted from "../buttonGetStarted/ButtonGetStarted";
-import image from "../../assets/image/3692685.png";
+import image from "../../assets/image/digital.jpg";
 import Container from "../container/Container";
 import { SlLock } from "react-icons/sl";
 import { FaVectorSquare } from "react-icons/fa6";

@@ -2,8 +2,15 @@ import Container from "../container/Container";
 import PremiumCard from "../premiumCard/PremiumCard";
 
 const SectionFive = () => {
+
+ const backgroundSection = {
+    backgroundColor: "#afbbc1",
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 85%)",
+  }
+
+
   return (
-    <div className="bg-sky-100 py-10 ">
+    <div style={backgroundSection} className="py-28 ">
       <Container>
         <div className="flex justify-between items-center mx-14">
         <div className="w-[40%]">

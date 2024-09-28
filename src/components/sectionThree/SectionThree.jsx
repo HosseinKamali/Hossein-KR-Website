@@ -2,7 +2,7 @@ import Container from "../container/Container";
 import IconsCard from "../IconsCard/IconsCard";
 
 const backgroundSection = {
-    backgroundColor: "#ffd7ef",
+    backgroundColor: "#f9daed",
     clipPath: "polygon(0 8%, 100% 0, 100% 100%, 0 100%)",
   };
 
