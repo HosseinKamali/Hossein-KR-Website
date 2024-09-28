@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Menu from "../menu/Menu";
 import { useAppContext } from "../../AppContext/AppContext";
+import icon from "../../assets/image/icon.png"
 
 const Navbar = () => {
   const { title, setIsOpenMenu } = useAppContext();
@@ -16,7 +17,10 @@ const Navbar = () => {
       <Container>
         <div className="flex justify-between items-center h-20 max-sm:mx-7 ">
           <div className="flex items-center ">
-            <FaGlobe size={40} className="mr-2 " />
+            <div className="w-20 h-20">
+            <img src={icon} alt="" className="w-full h-full"/>
+            </div>
+            
             <p className="text-xl font-semibold">WeDu</p>
           </div>
           <div className="flex items-center max-sm:hidden">
