@@ -51,7 +51,7 @@ const Navbar = () => {
             </ul>
             <div className="flex items-center mr-7 cursor-pointer">
               <FaUserCircle size={29} />
-              <p className="ml-3 text-sm font-semibold">login</p>
+              <Link to="/login" className="ml-3 text-sm font-semibold">login</Link>
             </div>
             <ButtonGetStarted bgColor="bg-amber-500 hover:text-amber-500 hover:bg-black text-sm py-[6px] px-3" />
           </div>

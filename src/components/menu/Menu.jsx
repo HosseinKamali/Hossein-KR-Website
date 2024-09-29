@@ -14,7 +14,7 @@ const Menu = () => {
           <ul className="ml-3 mt-10">
           <div className="flex items-center mr-10 mb-6 ml-5 cursor-pointer">
               <FaUserCircle  size={36}/>
-                <p className="ml-3 font-semibold">login</p>
+                <Link to="/login" className="ml-3 font-semibold">login</Link>
                
               </div>
              {
