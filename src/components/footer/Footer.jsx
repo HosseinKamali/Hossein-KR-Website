@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-amber-300 py-24 px-20 max-sm:mt-20">
+    <div className="bg-amber-300 py-24 px-20 max-sm:px-10 max-sm:mt-20">
       <div className="flex items-center justify-start mb-12">
       <div className="w-20 h-20">
         <img src={icon} alt="" className="w-full h-full" />
@@ -23,9 +23,9 @@ const Footer = () => {
       </div>
      
       <div className=" flex justify-center ">
-        <div className="grid grid-cols-6 gap-8 max-sm:grid-cols-1 ">
+        <div className="grid grid-cols-6 gap-8 max-sm:block ">
           {/* Contact Section */}
-          <div className="grid col-span-2">
+          <div className="grid col-span-2 max-sm:mb-10">
             <h3 className="font-semibold mb-9 text-base">Contact</h3>
             <div className="flex mb-8 text-sm">
               <p className="mr-8">
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links Section */}
-          <div className="grid col-span-1">
+          <div className="grid col-span-1 max-sm:mb-10">
             <h3 className="font-semibold text-[16px] mb-9">Quick Links</h3>
             <div className="flex flex-col text-sm">
               <a>Terms & Conditions</a>
