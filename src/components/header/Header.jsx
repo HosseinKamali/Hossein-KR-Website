@@ -29,31 +29,30 @@ const Header = () => {
               responsive="max-sm:hidden"
             />
 
-            <div className=" flex justify-between sm:mt-20 max-sm:block max-sm:mt-10 ">
+            <div className=" flex sm:justify-between sm:mt-20 max-sm:block max-sm:mt-10 ">
               <div className="flex items-center ">
                 <SlLock
                   size={37}
                   className="bg-black text-slate-50 p-1 rounded-md "/>
                 <p className="ml-2 text-xs">
-                  Speed &<br/>  Security
+                  Speed & Security
                 </p>
               </div>
 
-              <div className="flex items-center justify-between  max-sm:mt-4">
+              <div className="flex items-center sm:justify-between  max-sm:mt-4">
                 <FaVectorSquare
                   size={37}
                   className="bg-black text-slate-50 p-1 rounded-md "/>
                 <p className="ml-2 text-xs">
-                  Flexibility &<br/>  Scalability
+                  Flexibility & Scalability
                 </p>
               </div>
-              <div className="flex items-center justify-between  max-sm:mt-4">
+              <div className="flex items-center sm:justify-between  max-sm:mt-4">
                 <IoIosContract
                   size={37}
                   className="bg-black text-slate-50 p-1 rounded-md "/>
                 <p className="ml-2 text-xs">
-                  Better <br/>
-                  Collaboration
+                  Better Collaboration
                 </p>
               </div>
             </div>
