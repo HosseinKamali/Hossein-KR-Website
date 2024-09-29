@@ -5,8 +5,8 @@ import icon from "../../assets/image/icon.png"
 const Login = () => {
   return (
 
-    <div className="flex justify-center items-center h-screen overflow-y-hidden">
-        <div className="w-[65%] mt-20">
+    <div className="flex justify-center items-center h-screen overflow-y-hidden max-sm:block max-sm:relative">
+        <div className="w-[65%] mt-20 max-sm:absolute max-sm:bottom-[1%] max-sm:w-full ">
           <img src={image} alt="" className="object-cover w-full h-full"/>
         </div>
       <form className="flex flex-col justify-center p-10">
@@ -27,7 +27,8 @@ const Login = () => {
         <label htmlFor="password" className="mb-1">Password</label>
         <input type="password" id="password" placeholder="Password" className="border-[1px] border-gray-700 outline-amber-600 w-80
         h-10 p-2"/>
-        <p className="text-sm mt-6 text-center font-semibold">Don’t you have an account? <Link to="/sign up" className="text-blue-800 font-bold cursor-pointer mb-10">Sign up</Link></p>
+        <p className="text-sm mt-5 text-center font-semibold">Don’t you have an account? <Link to="/sign up" className="text-blue-800 font-bold cursor-pointer mb-10">Sign up</Link></p>
+        <button className="w-full bg-sky-800 text-slate-50 h-10 rounded-lg mt-7">Login</button>
       </form>
     </div>
   );
