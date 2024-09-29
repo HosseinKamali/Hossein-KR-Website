@@ -1,16 +1,16 @@
 import { Link } from "react-scroll";
-import image from "../../assets/image/5073684.jpg"
-import icon from "../../assets/image/icon.png"
+import image from "../../assets/image/5073684.jpg";
+import icon from "../../assets/image/icon.png";
 
 const Login = () => {
   return (
 
-    <div className="flex justify-center items-center h-screen overflow-y-hidden max-sm:block max-sm:relative">
-        <div className="w-[65%] mt-20 max-sm:absolute max-sm:bottom-[1%] max-sm:w-full ">
+    <div className="flex justify-center items-center h-screen overflow-y-hidden max-sm:block max-sm:overflow-y-auto ">
+        <div className="w-[65%] mt-20 max-sm:mt-0 max-sm:w-full ">
           <img src={image} alt="" className="object-cover w-full h-full"/>
         </div>
       <form className="flex flex-col justify-center p-10">
-      <div className="flex items-center mb-5">
+      <div className="flex items-center mb-5 max-sm:-mt-10">
             <div className="w-20 h-20">
               <img src={icon} alt="" className="w-full h-full" />
             </div>
@@ -19,7 +19,7 @@ const Login = () => {
               <p className="text-sm">Communicate.Collaborate.Create.</p>
             </div>
           </div>
-      <h2 className="mb-12 text-2xl font-bold text-center">Login</h2>
+      <h2 className="mb-10 text-2xl font-bold text-center">Login</h2>
         <label htmlFor="email" className="mb-1">Email</label>
         <input type="email" id="email" placeholder="email" className="border-[1px] border-black outline-amber-600 w-80
         h-10 p-2 mb-5"/>
