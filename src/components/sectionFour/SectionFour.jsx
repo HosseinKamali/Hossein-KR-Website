@@ -9,7 +9,7 @@ const SectionFour = () => {
   return (
     <Container>
  <div>
-      <div className="flex justify-around items-center mb-20 mx-14  max-sm:flex-col max-sm:justify-between max-sm:items-center">
+      <div className="flex justify-around items-center mb-20  max-sm:flex-col max-sm:justify-between max-sm:items-center">
 
         <div className="w-[27%] max-sm:mb-10 max-sm:w-[70%]  h-[400px] border-2 border-black relative  rounded-xl ">
             <p className="bg-orange-400 rounded-t-xl flex items-center font-bold"><BsThreeDots size={35} className="ml-3"/></p>

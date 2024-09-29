@@ -10,7 +10,7 @@ const SectionThree = () => {
   return (
     <div style={backgroundSection} className="py-20 mb-20  ">
       <Container>
-        <div className=" mb-16  max-sm:block max-sm:mt-24 max-sm:mx-10 mx-14">
+        <div className=" mb-16  max-sm:block max-sm:mt-24 max-sm:mx-10 ">
           <h2 className="text-3xl max-sm:mb-6 mt-28 ">
             Trusted Among Industry Leaders
           </h2>

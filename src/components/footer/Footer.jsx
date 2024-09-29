@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-amber-300 py-24 px-20">
+    <div className="bg-amber-300 py-24 px-20 max-sm:mt-20">
       <div className="flex items-center justify-start mb-12">
       <div className="w-20 h-20">
         <img src={icon} alt="" className="w-full h-full" />
@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
      
       <div className=" flex justify-center ">
-        <div className="grid grid-cols-6 gap-8 ">
+        <div className="grid grid-cols-6 gap-8 max-sm:grid-cols-1 ">
           {/* Contact Section */}
           <div className="grid col-span-2">
             <h3 className="font-semibold mb-9 text-base">Contact</h3>

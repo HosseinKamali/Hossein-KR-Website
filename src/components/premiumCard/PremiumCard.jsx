@@ -26,7 +26,7 @@ const PremiumCard = () => {
 
              </div>
 
-            <ul className="bg-pink-200  px-6 py-6 rounded-b-lg border-2 border-black">
+            <ul className="bg-pink-200 w-[360px] h-[170px] mb-20  px-6 py-6 rounded-b-lg border-2 border-black">
                 {
                   benefits.map((benefit,index)=>
                     <li key={index} className="flex items-center mb-4 text-xs">
