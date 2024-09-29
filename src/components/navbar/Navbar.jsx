@@ -1,12 +1,12 @@
-import Container from "../container/Container";
-import { FaUserCircle } from "react-icons/fa";
-import { FaGlobe } from "react-icons/fa6";
-import ButtonGetStarted from "../buttonGetStarted/ButtonGetStarted";
-import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
-import Menu from "../menu/Menu";
+import { Link as ScrollLink } from "react-scroll";
 import { useAppContext } from "../../AppContext/AppContext";
-import icon from "../../assets/image/icon.png";
+import Menu from "../menu/Menu"
+import Container from "../container/Container";
+import icon from "../../assets/image/icon.png"
+import ButtonGetStarted from "../buttonGetStarted/ButtonGetStarted";
+import { FaUserCircle } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { title, setIsOpenMenu } = useAppContext();
@@ -15,8 +15,8 @@ const Navbar = () => {
     <div className="relative">
       <Menu />
       <Container>
-        <div className="flex justify-between items-center h-20 max-sm:mx-7 ">
-          <div className="flex items-center ">
+        <div className="flex justify-between items-center h-20 ">
+          <div className="flex items-center">
             <div className="w-20 h-20">
               <img src={icon} alt="" className="w-full h-full" />
             </div>
@@ -27,15 +27,29 @@ const Navbar = () => {
           </div>
           <div className="flex items-center max-sm:hidden">
             <ul className="flex items-center mr-10">
-              {title.map((item) => (
-                <Link key={item.id} to={item?.path}>
-                  <li className="ml-2 text-sm cursor-pointer py-1 px-3 hover:text-slate-500">
+              {title.map((item) =>
+                item.title === "Product" ? (
+                  <ScrollLink
+                    key={item.id}
+                    to="product"
+                    smooth={true}
+                    duration={500}
+                    className="ml-2 text-sm cursor-pointer py-1 px-3 hover:text-slate-500"
+                  >
+                    {item.title}
+                  </ScrollLink>
+                ) : (
+                 <Link key={item.id} to={item?.path}>
+                 <li
+                    
+                    className="ml-2 text-sm cursor-pointer py-1 px-3 hover:text-slate-500" >
                     {item.title}
                   </li>
-                </Link>
-              ))}
+                  </Link> 
+                )
+              )}
             </ul>
-            <div className="flex items-center mr-7 cursor-pointer ">
+            <div className="flex items-center mr-7 cursor-pointer">
               <FaUserCircle size={29} />
               <p className="ml-3 text-sm font-semibold">login</p>
             </div>

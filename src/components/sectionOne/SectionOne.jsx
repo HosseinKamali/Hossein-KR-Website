@@ -1,17 +1,16 @@
-import { useState ,useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Container from "../container/Container";
 import { offers } from "../../../data/data";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const SectionOne = () => {
   const [cards, setCards] = useState(offers);
   const [isVisible, setIsVisible] = useState(false);
-
+  const productRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      const targetElement = document.getElementById('animateElement');
+      const targetElement = document.getElementById("animateElement");
       const targetPosition = targetElement.getBoundingClientRect().top;
 
       if (targetPosition < window.innerHeight) {
@@ -19,14 +18,14 @@ const SectionOne = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <Container>
-      <div className="mt-16 mx-14 ">
+      <div className="mt-16 mx-14" id="product" ref={productRef}>
         <h2 className="text-3xl mb-7">What We Offer</h2>
         <p className="text-sm leading-6">
           I'm a paragraph. Click here to add your own text and edit me. It’s
@@ -36,17 +35,16 @@ const SectionOne = () => {
           <br /> make changes to the font.
         </p>
       </div>
-      
-      <motion.div 
+
+      <motion.div
         id="animateElement"
-        initial={{ opacity: 0, y: 100 }} 
-        animate={isVisible ? { opacity: 1, y: 0 } : {}} 
+        initial={{ opacity: 0, y: 100 }}
+        animate={isVisible ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1 }}
-       
-        
-      className="flex mb-10 max-sm:block flex-wrap justify-between mx-14 mt-14 ">
+        className="flex mb-10 max-sm:block flex-wrap justify-between mx-14 mt-14"
+      >
         {cards.map((card) => (
-          <div key={card.id} className="w-[24%] max-sm:w-[65%] max-sm:mb-20 ">
+          <div key={card.id} className="w-[24%] max-sm:w-[65%] max-sm:mb-20">
             <img
               src={card.image}
               alt=""
@@ -59,8 +57,6 @@ const SectionOne = () => {
           </div>
         ))}
       </motion.div>
-      
-    
     </Container>
   );
 };

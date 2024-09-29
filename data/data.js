@@ -8,7 +8,7 @@ export const titleNavbar =[
     {
         id : 2,
         title : "Product",
-        path:"/product"
+        
 
     },  {
         id : 3,
