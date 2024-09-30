@@ -5,8 +5,8 @@ import icon from "../../assets/image/icon.png";
 const Login = () => {
   return (
 
-    <div className="flex justify-center items-center h-screen overflow-y-hidden max-sm:block max-sm:overflow-y-auto ">
-        <div className="w-[65%] mt-20 max-sm:mt-0 max-sm:w-full ">
+    <div className="flex justify-center items-center h-screen overflow-y-hidden max-sm:block max-sm:overflow-y-auto max-sm:mt-16">
+        <div className="w-[65%] mt-20 max-sm:hidden">
           <img src={image} alt="" className="object-cover w-full h-full"/>
         </div>
       <form className="flex flex-col justify-center p-10">
