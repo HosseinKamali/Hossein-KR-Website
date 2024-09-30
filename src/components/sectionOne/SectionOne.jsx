@@ -7,10 +7,11 @@ const SectionOne = () => {
   const [cards, setCards] = useState(offers);
   const [isVisible, setIsVisible] = useState(false);
   const productRef = useRef(null);
+  const animateElement = useRef(null)
 
   useEffect(() => {
     const handleScroll = () => {
-      const targetElement = document.getElementById("animateElement");
+      const targetElement = animateElement.current
       const targetPosition = targetElement.getBoundingClientRect().top;
 
       if (targetPosition < window.innerHeight) {
@@ -37,10 +38,10 @@ const SectionOne = () => {
       </div>
 
       <motion.div
-        id="animateElement"
+        ref={animateElement}
         initial={{ opacity: 0, y: 100 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1.5 }}
         className="flex mb-10 max-sm:block flex-wrap justify-between mx-14 mt-14"
       >
         {cards.map((card) => (

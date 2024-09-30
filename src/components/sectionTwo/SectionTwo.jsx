@@ -4,16 +4,49 @@ import Container from "../container/Container";
 import { SlLock } from "react-icons/sl";
 import { FaVectorSquare } from "react-icons/fa6";
 import { IoIosContract } from "react-icons/io";
+import { motion } from "framer-motion";
+import { useEffect,useRef,useState } from "react";
+
+
 
 const SectionTwo = () => {
+const [isVisible, setIsVisible] = useState(false);
+const animateElement =useRef(null)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const targetElement = animateElement.current
+      const targetPosition = targetElement.getBoundingClientRect().top;
+
+      if (targetPosition < window.innerHeight) {
+        setIsVisible(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
   return (
     <Container>
-      <div className="sm:flex sm:items-center sm:justify-between max-sm:block mt-32 mb-16 max-sm:mx-7 ">
-        <div className=" max-sm:w-full flex justify-center items-center w-[600px] max-sm:mb-10 ">
+      <div className="overflow-x-hidden sm:flex sm:items-center sm:justify-between max-sm:block mt-32 mb-16 max-sm:mx-7 ">
+        <motion.div
+          ref={animateElement}
+          initial={{ opacity: 0.1, x: -400 }}
+          animate={isVisible ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 1.5 }}
+         className=" max-sm:w-full flex justify-center items-center w-[600px] max-sm:mb-10 ">
           <img src={image} alt="" className="w-full h-full" />
-        </div>
+        </motion.div>
 
-        <div className="max-sm:mx-7 sm:flex sm:flex-col sm:justify-between sm:w-[40%] max-sm:w-[90%] max-sm:text-center ">
+        <motion.div
+          ref={animateElement}
+          initial={{ opacity: 0.1, x: 400 }}
+          animate={isVisible ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 1.5  }}
+         className="max-sm:mx-7 sm:flex sm:flex-col sm:justify-between sm:w-[40%] max-sm:w-[90%] max-sm:text-center ">
         
             <h2 className="font-semibold text-3xl mb-7">
               Communicate.
@@ -57,7 +90,7 @@ const SectionTwo = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
           
         </div>
       
