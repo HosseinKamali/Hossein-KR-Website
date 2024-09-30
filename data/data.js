@@ -7,7 +7,7 @@ export const titleNavbar =[
     },
     {
         id : 2,
-        title : "Product",
+        title : "product",
         
 
     },  {

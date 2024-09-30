@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="flex items-center max-sm:hidden">
             <ul className="flex items-center mr-10">
               {title.map((item) =>
-                item.title === "Product" ? (
+                item.title === "product" ? (
                   <ScrollLink
                     key={item.id}
                     to="product"
