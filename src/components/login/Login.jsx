@@ -21,11 +21,11 @@ const Login = () => {
           </div>
       <h2 className="mb-10 text-2xl font-bold text-center">Login</h2>
         <label htmlFor="email" className="mb-1">Email</label>
-        <input type="email" id="email" placeholder="email" className="border-[1px] border-black outline-amber-600 w-80
+        <input type="email" id="email" placeholder="email" className="border-[1px] border-black outline-amber-600 w-full
         h-10 p-2 mb-5"/>
 
         <label htmlFor="password" className="mb-1">Password</label>
-        <input type="password" id="password" placeholder="Password" className="border-[1px] border-gray-700 outline-amber-600 w-80
+        <input type="password" id="password" placeholder="Password" className="border-[1px] border-gray-700 outline-amber-600 w-full
         h-10 p-2"/>
         <p className="text-sm mt-5 text-center font-semibold">Don’t you have an account? <Link to="/sign up" className="text-blue-800 font-bold cursor-pointer mb-10">Sign up</Link></p>
         <button className="w-full bg-sky-800 text-slate-50 h-10 rounded-lg mt-7">Login</button>

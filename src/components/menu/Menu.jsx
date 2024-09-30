@@ -27,13 +27,14 @@ const Menu = () => {
                     smooth={true}
                     duration={500}
                      className="font-semibold cursor-pointer py-1 px-3 hover:text-slate-500"
+                     onClick={()=>setIsOpenMenu(false)}
                   >
                     {item.title}
                   </ScrollLink>
                 ) : (
                  <Link key={item.id} to={item?.path}>
                  <li
-                    
+                    onClick={()=>setIsOpenMenu(false)}
                     className="font-semibold cursor-pointer py-1 px-3 hover:text-slate-500">
                     {item.title}
                   </li>
